@@ -1,5 +1,3 @@
 Class WatIsGit
 
-def Show
-    puts 'Git is easy if you understand the basis.'
-end
+def Show "Git is easy.if you understand the basis."
