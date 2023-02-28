@@ -5,7 +5,7 @@ def about(lang = 'en')
 end
 
 def Show 
-    puts "if you understand the basis. Git is easy."
+    puts "If you understand the basis. Git is easy."
 end
 
 end
