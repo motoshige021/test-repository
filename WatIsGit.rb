@@ -5,7 +5,14 @@ def about(lang = 'en')
 end
 
 def Show 
-    puts "If you understand the basis. Git is easy."
+    puts "Do you understand the basis? [yes/no]"
+    input = gets.chomp.downcase
+    case input
+    when 'yes'
+        puts 'Git is easy.'
+    else
+        puts 'Git is difficlut..."
+    end
 end
 
 end
