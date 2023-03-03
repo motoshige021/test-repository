@@ -1,4 +1,4 @@
-Class WatIsGit
+class WatIsGit
 
 def about(lang = 'en')
     puts 'https://#{lang}.wikipedia.org/wiki/Git'
