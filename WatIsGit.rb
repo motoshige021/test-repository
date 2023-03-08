@@ -5,7 +5,7 @@ def about(lang = 'en')
 end
 
 def Show 
-    case input("Do you understand the basis? [yes/no]")
+    case input("Do you understand the basis of Git? [yes/no]")
     when 'yes'
         puts 'Git is easy.'
     else
