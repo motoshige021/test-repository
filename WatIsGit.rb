@@ -6,7 +6,7 @@ end
 
 def Show 
     case input("Do you understand the basis? [yes/no]")
-    when 'yes'
+    when 'yes', 'y'
         puts 'Git is easy.'
     else
         puts 'Git is difficlut..."
