@@ -1,6 +1,9 @@
 class WatIsGit
 
-def about(lang = 'en')
+def about(lang = nil)
+    if lamg==nil then
+        lang = language
+    end
     puts "https://#{lang}.wikipedia.org/wiki/Git"
 end
 
