@@ -1,3 +1,6 @@
+require 'jcode'
+$KCODE = 'u'
+
 class WatIsGit
 
 def about(lang = 'en')
@@ -16,6 +19,6 @@ end
 private
    def input(message)
        puts message
-       gets.chomp.downcase
-    end
+       gets.chomp.tr('A-Za-z','A-Za-z').downcase
+   end
 end
