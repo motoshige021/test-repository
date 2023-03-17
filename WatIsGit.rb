@@ -21,4 +21,8 @@ private
        puts message
        gets.chomp.downcase
     end
+
+    def language
+    end
 end
+
